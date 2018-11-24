@@ -27,6 +27,8 @@ public class Calculator {
             list.add(trans);
         else if(trans.equals("=")) {
             finalresult=evaluateExpression(list);
+            list.clear();
+            list.add(String.valueOf(finalresult));
         }
         return String.valueOf(new BigDecimal(String.valueOf(finalresult)).stripTrailingZeros().toPlainString());
     }

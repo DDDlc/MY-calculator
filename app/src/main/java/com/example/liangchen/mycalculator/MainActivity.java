@@ -156,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 txtResult.setText(calculator.button("="));
+
             }
         });
         button_AC.setOnClickListener(new View.OnClickListener() {

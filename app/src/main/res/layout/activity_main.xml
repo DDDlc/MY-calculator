@@ -127,7 +127,7 @@
         android:id="@+id/button_sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-"
+        android:text="—"
         android:background="@drawable/bt_change_yellow"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
