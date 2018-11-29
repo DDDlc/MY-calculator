@@ -167,7 +167,7 @@
         android:background="@drawable/bt_change_yellow"
         android:layout_columnWeight="1"
         android:layout_rowWeight="1"
-           />
+        />
     <Button
         android:id="@+id/button_zero"
         android:layout_width="wrap_content"
